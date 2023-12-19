@@ -202,5 +202,37 @@ int main(int argc, char const *argv[])
 // else{
 //     cout<<"not found!"; 
 // }
+
+// Q) to print array elements in different pairs 
+// example - array = 10 | 20 | 30
+// pairs = {10,10}, {10,20}, {10,30} and so on till {30,30}
+
+/*
+LOGIC 
+
+for printing the pairs for the given array, 
+10 20 30
+
+i = 0, j = 0, we will print {10,10}
+i = 0, j = 1, we will print {10,20}
+i = 0, j = 2, we will print {10,30}
+
+this continues till we get 
+
+i = 2, j = 2, which will print {30,30}
+
+*/
+
+// int arr[3] = {10,20,30};
+// int n = 3;
+// for (int i = 0; i < n; i++)
+// {
+//     for (int j = 0; j < n; j++)
+//     {
+//         cout<<arr[i]<< "," << arr[j] <<endl;
+//     }
+    
+// }
+
     return 0;
 }
