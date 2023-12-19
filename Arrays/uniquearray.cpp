@@ -26,5 +26,17 @@ cout<<"Final ans is : "<<finalAns<<endl;
 // ^ = XOR Operator 
 // now, the unique element in the array is 5, so it is XOR'ed with 0, and any number XOR'ed with 0 returns the same number, so we print the unique element 
 
+/* 
+
+XOR's truth table 
+
+A	B	A XOR B
+0	0	0
+0	1	1
+1	0	1
+1	1	0
+
+*/
+
     return 0;
 }
