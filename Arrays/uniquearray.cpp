@@ -36,6 +36,7 @@ A	B	A XOR B
 1	0	1
 1	1	0
 
+when we XOR a number with 0 according to the truth table, it returns the number itself! 
 */
 
     return 0;
