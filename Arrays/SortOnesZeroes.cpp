@@ -1,3 +1,12 @@
+
+/* 
+lets take an array - {0,1,1,0,1,0,1,0}
+we have to sort the array in such a way that we print all the number of zeroes first and then we print the number of ones 
+like this - {0,0,0,0,1,1,1,1}
+
+to print the number of ones first, write the loop for sorting and printing ones first and then go for the zero. 
+*/
+
 #include<iostream>
 using namespace std;
 
