@@ -1,0 +1,50 @@
+Note 1 
+
+how vector allocates memory 
+push 1 2 3 4 5 
+initially there is one memory block after inserting 1 
+
+|| 1 ||
+
+now we want to insert 2, but the array is full coz there is only one block 
+double the array's capacity
+1 * 2 = 2 
+|| 1 || 2 ||
+
+now again, the array is full. Double the capacity 2 * 2 
+|| 1 || 2 || 3 || __ ||
+
+now we can insert 4 in the last memory block as well, but we dont need to double the capacity as array isnt full 
+|| 1 || 2 || 3 || 4 || 
+
+now for 5, double the capacity
+4 * 2 = 8 
+|| 1 || 2 || 3 || 4 || 5 || __ || __ ||  __ || __ ||
+
+we inserted 5 and the size of the array is 8 now 
+
+NOTE - SIZE means the number of elements the vector holds
+CAPACITY means the number of elements the vector can hold 
+
+Note 2
+
+to push the arraye elements, we use the method - vectorName.push_back(element);
+eg - v.push_back(1);
+
+Note 3
+
+to pop the array elements, we use the method - vectorName.pop_back(element);
+eg - v.pop_back(1);
+
+Note 4 
+
+to print array elements, we can also use vector.at()
+like this -  v.at(i);
+
+Note 5 
+
+we can also print the front elements like this - cout<<v[0]; --> for the front element 
+we can also print the end element like this - cout<<v.back()
+
+in a nutshell, front elements are printed using v.front(), v[0]
+end elements are printed using v.back(), v[v.size - 1];
