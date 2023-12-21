@@ -2,6 +2,9 @@
 #include<vector>
 using namespace std;
 
+
+// we're making use of vectors to dynamically allocate memory efficiently. VECTOR IS A DYNAMIC ARRAY  
+
 // printing array dynamically without vectors function 
 
 // void arrPrint (int arr[], int n){
