@@ -50,3 +50,6 @@ in a nutshell, front elements are printed using v.front(), v[0]
 end elements are printed using v.back(), v[v.size - 1];
 
 # 6 
+for 2D Arrays, we're using the formula - c * i + j to find out, which array element is stored in which location. 
+specifiying the COLUMNS is MANDATORY for 2D arrays, because we need it for finding the accurate index for the element 
+2D arrays are visualized as linear arrays in the compiler, even if we're visualizing them as in the format of rows and columns in a box 
