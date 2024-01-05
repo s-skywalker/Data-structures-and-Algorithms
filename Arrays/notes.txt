@@ -48,3 +48,5 @@ we can also print the end element like this - cout<<v.back()
 
 in a nutshell, front elements are printed using v.front(), v[0]
 end elements are printed using v.back(), v[v.size - 1];
+
+# 6 
